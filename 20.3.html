@@ -1,0 +1,21 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>变量的作用域</title>
+</head>
+<body>
+	<script type="text/javascript">
+	var student="Rose";
+	function fun(){
+		var name = "tom";
+		document.write(name+"</br>")
+		document.write(student+"</br>")
+	}
+	function value(){document.write(student+"</br>")}
+	fun();
+	value();
+	document.write(student);
+	</script>
+</body>
+</html>
